@@ -1,0 +1,27 @@
+{
+  "name": "weapp-backend",
+  "version": "1.0.0",
+  "description": "Weapp server",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "weapp"
+  ],
+  "author": "coderfee",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "axios": "^0.21.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
